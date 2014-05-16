@@ -1,36 +1,7 @@
-# trends
+If you have leiningen installed:
 
-FIXME: description
+git clone https://github.com/karolmajta/clojure-trends.git
+cd clojure-trends
+cat <path-to-input.csv> | lein run <n>
 
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar trends-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+The program reads data from stdin, and spits n results to stout.
